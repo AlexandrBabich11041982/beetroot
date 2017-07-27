@@ -1,0 +1,45 @@
+body {
+    padding-left: 100px;
+    background: #f0e68c;
+    width: 800px;
+}
+
+/*div {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}*/
+
+.container {
+    border-radius: 20px;
+    width: 230px;
+    height: 230px;
+    top: 250px;
+}
+
+.absolute {
+    position: absolute;
+    right: 450px;
+}
+
+.begin {
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.green {
+    color: #7fff00;
+}
+
+.yellow {
+    color: aqua;
+}
+
+.em {
+    font-size: 30px;
+    
+}
+
+.h3 {
+    color:#8b0000; 
+}
