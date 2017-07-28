@@ -4,17 +4,17 @@ body {
     width: 800px;
 }
 
-/*div {
+/*.container {
     width: 200px;
     height: 200px;
     border-radius: 25px;
 }*/
 
-.container {
+.right {
     border-radius: 20px;
     width: 230px;
     height: 230px;
-    top: 250px;
+    top: 20px;
 }
 
 .absolute {
