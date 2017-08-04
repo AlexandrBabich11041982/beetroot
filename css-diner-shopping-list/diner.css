@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+
+
+* {
+    transition: all .1s ease-in;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    background-color: #393D43;
+    border: 20px solid white;
+    position: absolute;
+    margin-left: 15vw;
+    
+}
+
+.header {
+  background-color: #494E55;
+  padding: 25px 15px;
+  text-align: center;
+  color: #EA8082;
+}
+
+.header-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-description {
+  font-size: 20px;
+}
+
+main {
+   min-height: calc(100vh - 117px - 78px);
+    padding: 30px 20px;
+}
+
+.main-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-item {
+    background-color: #89849E;
+    padding: 0px;
+}
+
+.form-label {
+    padding: 10px;
+    background-color: #89849E;
+    display: block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.form-label:hover {
+    background-color: #625F77;
+    border-top: 2px solid #fff;
+    border-bottom:  2px solid #fff;
+}
+
+.form-label:active {
+    background-color: crimson;
+}
+
+
+.form-input:checked~span {
+    text-decoration: line-through;
+    color: #8586C6;
+}
+
+/*
+.form-input:checked + .form-title:before {
+    height: 5px;
+    width: 5px
+}
+*/
+
+/*
+.form-input {
+    position: absolute;
+    left: 10;
+    top: 15;
+}
+*/
+
+/*
+.form-row {
+    position: absolute;
+    width: 100%;
+    height: 100%
+    top: 0;
+    left: 0;
+}
+*/
+
+.form-title {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+
+
+
+/*
+.form-description:before {
+    display: block;
+    position: absolute;
+    content: '(';
+    left: 25px;
+    top: 5px;
+    transform: translateY(50%);
+}
+*/
+
+
+.footer-bon {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: #a9a9a9;
+    margin: 0 auto;
+    margin-top: -100px;
+    font-size: 20px;
+    line-height: 60px;
+    color: #EA8082;
+    background-color: #696969;
+}
+
+.footer-bon:first-letter {
+    font-size: 40px;
+}
+
+
+.footer-bon:after {
+    content: ':)'
+}
